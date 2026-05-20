@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #303030;
+}
+
+.container {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.name {
+    width: 300px;
+    font-size: 60px;
+    transition-property: transform;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+}
+
+.des {
+    width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+    transition-property: transform;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+}
+
+.minions {
+    height: 300px;
+    transition-property: transform;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+    
+}
+
+.container:hover .minions .name .des{
+    transform: rotate(1.2turn)
+    transform-translate(500px 500px)
+}
