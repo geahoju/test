@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #303030;
+}
+
+.container {
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    
+}
+
+.name {
+    width: 250px;
+    font-size: 50px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.des {
+    width: 400px;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 8px 0;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.minions {
+    height: 150px;
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-out;}
+
+
+.rin {
+    height: 250px;
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-out;
+}
+
+.container:hover .rin{
+    transform: translate(200px, 40px) rotate(2.12turn) scale(2);
+}
+
+.container:hover .minions{
+    transform: translate(-120px, -120px) rotate(2.12turn) scale(1.5);
+}
+
+.container:hover .name{
+    
+    transform: translate(220px, 440px) rotate(0.85turn) scale(1.3);
+}
+.container:hover .des{
+    transform: translate(120px, 70px) rotate(0.1turn) ;
+}
+
+.name:hover{
+    color: yellow;
+}
+
+.des:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.container .minions:hover{
+    transform: translate(-450px, -450px) rotate(0.12turn) scale(0);   
+
+}
+.container .rin:hover{
+    transform: translate(550px, -650px) rotate(0.12turn) scale(0);   
+
+}
